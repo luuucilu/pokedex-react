@@ -84,7 +84,7 @@
           align-items: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  background-color: #CA2E2E;
+  background-color: blue;
   margin: 0 8rem 3rem 0;
   width: 30%;
 }
