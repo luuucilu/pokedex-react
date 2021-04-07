@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Link para ir viendo los deploys:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+https://pokedex-luuucilu.vercel.app/
 
 ## Available Scripts
 
