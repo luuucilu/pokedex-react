@@ -1,0 +1,697 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.outsideContainer {
+  margin: 10% auto;
+  width: 40%;
+  height: 450px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: black;
+  border-radius: 2rem;
+}
+
+.outsideContainer .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 47%;
+  height: 100%;
+  background-color: #D52C27;
+}
+
+.outsideContainer .left .topSide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #CA2E2E;
+  width: 100%;
+  height: 20%;
+  padding: 0 0.3rem;
+}
+
+.outsideContainer .left .topSide .blueCircle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: radial-gradient(circle, white 0%, #5bd6f2 49%);
+  margin: 0 0 0 0;
+  height: 3.8rem;
+  width: 3.8rem;
+  border-radius: 50%;
+  border: 4px solid white;
+}
+
+.outsideContainer .left .topSide .blueCircle .glow {
+  opacity: 0.4;
+  background-color: white;
+  width: 1.7rem;
+  height: 0.9rem;
+  border-radius: 35%;
+  margin: 0 0 1.9rem 0;
+}
+
+.outsideContainer .left .topSide .circlesWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #CA2E2E;
+  margin: 0 8rem 3rem 0;
+  width: 30%;
+}
+
+.outsideContainer .left .topSide .circlesWrapper .redCircle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 50%;
+  border: 1px solid #575757;
+  width: 1rem;
+  height: 1rem;
+  background: radial-gradient(circle, #ff2626 84%, #c82020 100%);
+}
+
+.outsideContainer .left .topSide .circlesWrapper .yellowCircle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 50%;
+  border: 1px solid #575757;
+  width: 1rem;
+  height: 1rem;
+  background: radial-gradient(circle, white 0%, #fefe41 49%);
+}
+
+.outsideContainer .left .topSide .circlesWrapper .greenCircle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 50%;
+  border: 1px solid #575757;
+  width: 1rem;
+  height: 1rem;
+  background: radial-gradient(circle, rgba(133, 242, 84, 0.434611) 0%, #85f254 100%);
+}
+
+.outsideContainer .left .leftScreen {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #B1B1B1;
+  width: 80%;
+  height: 40%;
+  margin: 5% 0 0 10%;
+  border-radius: 10px;
+  border-left-color: transparent;
+}
+
+.outsideContainer .left .leftScreen .screen-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 20%;
+  margin: 0.4rem 0 0 0;
+}
+
+.outsideContainer .left .leftScreen .screen-top .circleOne {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 50%;
+  border: 1px solid #575757;
+  width: 0.5rem;
+  height: 0.5rem;
+  background: radial-gradient(circle, #ff2626 84%, #c82020 100%);
+}
+
+.outsideContainer .left .leftScreen .screen-top .circleTwo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 50%;
+  border: 1px solid #575757;
+  width: 0.5rem;
+  height: 0.5rem;
+  background: radial-gradient(circle, #ff2626 84%, #c82020 100%);
+}
+
+.outsideContainer .left .leftScreen .screen-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.outsideContainer .left .leftScreen .screen-wrapper .image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #D7EEFC;
+  width: 74%;
+  height: 70%;
+  border: solid 2px #575757;
+  border-radius: 5px;
+}
+
+.outsideContainer .left .leftScreen .screen-wrapper .screen-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 73%;
+  padding: 0.5rem 0 0 0;
+  margin: 0 0.1rem 0 0;
+  height: 10%;
+}
+
+.outsideContainer .left .leftScreen .screen-wrapper .screen-bottom .redButton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: auto;
+  border-radius: 50%;
+  border: 1px solid #575757;
+  width: 1rem;
+  height: 1rem;
+  background: radial-gradient(circle, #ff2626 84%, #c82020 100%);
+}
+
+.outsideContainer .left .leftScreen .screen-wrapper .screen-bottom .lines {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+  height: 100%;
+}
+
+.outsideContainer .left .leftScreen .screen-wrapper .screen-bottom .lines .hr {
+  width: 30%;
+  margin-top: 0.2rem;
+  margin-left: auto;
+  border: 1px solid #575757;
+}
+
+.outsideContainer .left .bottomLeftWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  background-color: yellow;
+  height: 37%;
+}
+
+.outsideContainer .left .bottomLeftWrapper .leftBottomButton {
+  width: 20%;
+  border: none;
+  background-color: #D52C27;
+}
+
+.outsideContainer .left .bottomLeftWrapper .leftBottomButton .blackLeftButton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0;
+  margin: 20px 0 0 1rem;
+  background-color: #222222;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  border-style: none;
+}
+
+.outsideContainer .left .bottomLeftWrapper .leftBottomButton .blackLeftButton:focus {
+  outline: none;
+}
+
+.outsideContainer .left .centralBottomButton {
+  width: 45%;
+  background-color: #D52C27;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.outsideContainer .left .centralBottomButton .bottomButtonsWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.outsideContainer .left .centralBottomButton .bottomButtonsWrapper .redBottomButton {
+  background-color: #C63131;
+  width: 35%;
+  margin: 1.5rem 0 0 0;
+  border: 1px solid #575757;
+  border-radius: 5px;
+  height: 0.5rem;
+}
+
+.outsideContainer .left .centralBottomButton .bottomButtonsWrapper .blueBottomButton {
+  background-color: #9D8685;
+  width: 35%;
+  margin: 1.5rem 0 0 0;
+  border: 1px solid #575757;
+  border-radius: 5px;
+  height: 0.5rem;
+}
+
+.outsideContainer .left .centralBottomButton .greenScreen {
+  width: 60%;
+  height: 4rem;
+  background-color: #52AD5E;
+  border: 2px solid #575757;
+  border-radius: 5px;
+  margin: 2rem 0 0 1.8rem;
+}
+
+.outsideContainer .left .cross {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #D52C27;
+  width: 40%;
+  height: 100%;
+}
+
+.outsideContainer .left .cross .topCross {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 1.8rem;
+  background-color: #D52C27;
+}
+
+.outsideContainer .left .cross .topCross .topButtonCross {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: auto;
+  border-radius: 5px 5px 0 0;
+  background-color: #222222;
+  width: 1.8rem;
+  height: 1.8rem;
+}
+
+.outsideContainer .left .cross .middleCrossWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 1.8rem;
+  width: 100%;
+  background-color: #D52C27;
+}
+
+.outsideContainer .left .cross .middleCrossWrapper .leftCross {
+  border-radius: 5px 0 0 5px;
+  background-color: #222222;
+  width: 1.8rem;
+  height: 1.8rem;
+}
+
+.outsideContainer .left .cross .middleCrossWrapper .middleCross {
+  border-radius: 0 0 0 0;
+  background-color: #222222;
+  width: 1.8rem;
+  height: 1.8rem;
+}
+
+.outsideContainer .left .cross .middleCrossWrapper .rightCross {
+  border-radius: 0 5px 5px 0;
+  background-color: #222222;
+  width: 1.8rem;
+  height: 1.8rem;
+}
+
+.outsideContainer .left .cross .bottomCrossWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 1.8rem;
+  background-color: #D52C27;
+}
+
+.outsideContainer .left .cross .bottomCrossWrapper .bottomCross {
+  border-radius: 0 0 5px 5px;
+  background-color: #222222;
+  width: 1.8rem;
+  height: 1.8rem;
+}
+
+.outsideContainer .middle {
+  width: 6%;
+  height: 100%;
+  background: -webkit-gradient(linear, left top, right top, from(#d52c27), color-stop(50%, #fc4d4d), to(#d52c27));
+  background: linear-gradient(90deg, #d52c27 0%, #fc4d4d 50%, #d52c27 100%);
+}
+
+.outsideContainer .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 5.6rem 0 0 0;
+  width: 47%;
+  height: 80%;
+  background-color: #D52C27;
+}
+
+.outsideContainer .right .rightScreen {
+  width: 80%;
+  height: 28%;
+  background-color: #242424;
+  margin: 0 0 1rem 0;
+  border-radius: 5px;
+}
+
+.outsideContainer .right .buttonsContainer {
+  background-color: yellow;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 80%;
+  height: 20%;
+  border-radius: 5px;
+}
+
+.outsideContainer .right .buttonsContainer .buttonsTopContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 50%;
+  background-color: #29AAFD;
+  border: 0 0 0 0 solid #575757;
+}
+
+.outsideContainer .right .buttonsContainer .buttonsTopContainer .blueButton {
+  width: 20%;
+  height: 100%;
+}
+
+.outsideContainer .right .buttonsContainer .buttonsTopContainer .blueButton:nth-child(odd) {
+  border: 1px solid black;
+}
+
+.outsideContainer .right .buttonsContainer .buttonsTopContainer .blueButton:nth-child(even) {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.outsideContainer .right .buttonsContainer .buttonsBottomContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 50%;
+  background-color: #29AAFD;
+  border: 0 0 0 0 solid #575757;
+}
+
+.outsideContainer .right .buttonsContainer .buttonsBottomContainer .blueButton {
+  width: 20%;
+  height: 100%;
+}
+
+.outsideContainer .right .buttonsContainer .buttonsBottomContainer .blueButton:nth-child(odd) {
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.outsideContainer .right .buttonsContainer .buttonsBottomContainer .blueButton:nth-child(even) {
+  border-bottom: 1px solid black;
+}
+
+.outsideContainer .right .bottomContainer {
+  background-color: #D52C27;
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.outsideContainer .right .bottomContainer .rightWrapper {
+  background-color: #D52C27;
+  width: 50%;
+  margin-left: auto;
+}
+
+.outsideContainer .right .bottomContainer .rightWrapper .blackButtonsWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.outsideContainer .right .bottomContainer .rightWrapper .blackButtonsWrapper .blackButton {
+  background-color: #002F25;
+  width: 2.5rem;
+  margin: 0.5rem 0 0 0;
+  margin-left: auto;
+  border-radius: 5px;
+  height: 0.5rem;
+}
+
+.outsideContainer .right .bottomContainer .rightWrapper .goldenButton {
+  background: radial-gradient(circle, #f9efb6 0%, #ffe33b 100%);
+  margin-left: auto;
+  margin-top: 1rem;
+  margin-bottom: 0.8rem;
+  width: 2.3rem;
+  height: 2.3rem;
+  border-radius: 50%;
+}
+
+.outsideContainer .right .bottomContainer .rightWrapper .blackScreen {
+  background-color: #242424;
+  margin-left: auto;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 80%;
+  height: 2.5rem;
+}
+
+.outsideContainer .right .bottomContainer .leftWrapper {
+  background-color: #D52C27;
+  width: 50%;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.outsideContainer .right .bottomContainer .leftWrapper .circleButtonContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: auto;
+}
+
+.outsideContainer .right .bottomContainer .leftWrapper .circleButtonContainer .circleButton {
+  border-radius: 50%;
+  background-color: #002F25;
+  width: 0.5rem;
+  margin: 0.5rem 0 0 0;
+  height: 0.5rem;
+}
+
+.outsideContainer .right .bottomContainer .leftWrapper .circleButtonContainer .circleButton:nth-child(1) {
+  margin-right: 0.5rem;
+}
+
+.outsideContainer .right .bottomContainer .leftWrapper .whiteButtonContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.outsideContainer .right .bottomContainer .leftWrapper .whiteButtonContainer .whiteButton {
+  margin-right: auto;
+  border: 1px solid black;
+  width: 2rem;
+  height: 2rem;
+  background: #DEDEDE;
+}
+
+.outsideContainer .right .bottomContainer .leftWrapper .whiteButtonContainer .whiteButton:nth-child(1) {
+  margin: 0 0 0 0;
+  border: 1px 0px 1px 1px solid black;
+}
+
+.outsideContainer .right .bottomContainer .leftWrapper .blackScreen {
+  background-color: #242424;
+  margin-right: auto;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 80%;
+  height: 2.5rem;
+}
+/*# sourceMappingURL=styles.css.map */
