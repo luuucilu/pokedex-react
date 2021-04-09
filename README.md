@@ -1,6 +1,6 @@
-# Link para ir viendo los deploys:
+# [Pokédex](https://pokedex-luuucilu.vercel.app/)
 
-https://pokedex-luuucilu.vercel.app/
+
 
 ## Available Scripts
 
